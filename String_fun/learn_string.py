@@ -1,1 +1,3 @@
-#TODO here we learn about strings manupulation
+import os
+
+s = "file.exe"
