@@ -1,3 +1,4 @@
+# Script to Scrap all Titles and URLS of https://lookmovie2.to 
 from bs4 import BeautifulSoup
 import requests, pandas as pd
 
