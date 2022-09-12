@@ -2,8 +2,7 @@ import pandas as pd
 
 csv_file = "/home/administrator/Desktop/python-folder/pandas/sample.csv"
 
-# l = pd.read_csv(csv_file,header=0).values.tolist()
-l = pd.read_csv(csv_file,header=0).to_numpy()
+l = pd.read_csv(csv_file).to_numpy()
 
 
 name_list = []
