@@ -20,7 +20,7 @@ def oilPrice():
     options.headless = True  # hide GUI
     s=Service(ChromeDriverManager().install())
     driver = webdriver.Chrome(service=s,options=options)
-    content = driver.get("https://www.tradingview.com/symbols/USOIL/")
+    content = driver.get("https://www.tradingview.com/symbols/FX-USOILSPOT/")
     soup = BeautifulSoup(driver.page_source,'lxml')
     price = soup.select_one(".tv-symbol-price-quote__value").text.strip()
     driver.close()
